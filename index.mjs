@@ -48,7 +48,7 @@ try {
 } catch (err) {
   console.error("Error parsing SOLANA_KEYPAIR:", err.message);
   throw new Error(
-    "SOLANA_KEYPAIR  is not valid. Ensure it is a Base58 string or JSON array."
+    "SOLANA_KEYPAIR is not valid. Ensure it is a Base58 string or JSON array."
   );
 }
 
